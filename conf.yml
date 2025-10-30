@@ -1,0 +1,47 @@
+camera_id: 0
+
+send_message: True
+send_image : False
+use_voice : False
+use_voicevox : True
+
+web_hook_url: ""
+
+api_Token : ""
+api_Channel : "C0649QW8GFK"
+
+show_rescale_ratio: 1.0
+
+ignore_tiny_rap: True
+
+voicevox:
+  pitchScale : 0.03
+  intonationScale : 1.1
+  volumeScale : 2.0
+  speaker : 1
+  prePhonemeLength : 1.0
+
+threthold:
+  binary: 100
+  start_line: 5
+  invalid_result: 7.0
+
+debug: False
+
+debug_params:
+  video_path: ./video.mp4
+  back_path: ./back.png
+
+key_params:
+  capture_background: b
+  set_start: s
+  set_reset: r
+  voice1: a #焦りは禁物
+  voice2: f #速い
+  voice3: g #ガンバれ
+  voice4: o #すごいのだ
+  voice5: y #セーフなのだ
+  voice6: n #アウトなのだ
+  voice7: m #後もう一回チャレンジできるのだ
+  voice8: b #お疲れ様なのだ
+  voice9: l #時間はまだあるのだ
